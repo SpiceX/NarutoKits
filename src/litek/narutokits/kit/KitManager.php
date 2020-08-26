@@ -36,10 +36,20 @@ class KitManager
         /** @var SplFileInfo $kit */
         foreach ($kitDir as $kit) {
             if ($kit->isFile()) {
+                $kitName = $kit->getBasename('.yml');
                 $kitConfig = new Config($kit->getPath() . DIRECTORY_SEPARATOR . $kit->getBasename(), Config::YAML);
-                $this->kits[$kit->getBasename('.yml')] = new Kit($kit->getBasename('.yml'), $kitConfig->getAll());
+                $this->kits[$kitName] = new Kit($kitName, $kitConfig->get($kitName));
             }
         }
+    }
+
+    /**
+     * @param string $name
+     * @return Kit|null
+     */
+    public function getKit(string $name): ?Kit
+    {
+        return $this->kits[$name] ?? null;
     }
 
     /**
@@ -48,5 +58,13 @@ class KitManager
     public function getPlugin(): NarutoKits
     {
         return $this->plugin;
+    }
+
+    /**
+     * @return Kit[]
+     */
+    public function getKits(): array
+    {
+        return $this->kits;
     }
 }

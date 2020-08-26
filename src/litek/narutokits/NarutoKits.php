@@ -2,6 +2,7 @@
 
 namespace litek\narutokits;
 
+use litek\narutokits\command\UserCommand;
 use litek\narutokits\form\FormManager;
 use litek\narutokits\kit\KitManager;
 use pocketmine\plugin\PluginBase;
@@ -20,6 +21,7 @@ class NarutoKits extends PluginBase
         self::$instance = $this;
         @mkdir($this->getDataFolder() . 'kits');
         $this->saveDefaultKits();
+        $this->getServer()->getCommandMap()->register('nkit',new UserCommand($this));
         $this->initManagers();
     }
 

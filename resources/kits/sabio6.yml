@@ -1,23 +1,43 @@
 sabio6:
+  permission: kitsabio6.perm
   helmet:
     id: 310
     enchantments:
-      - [0, 700]
-      - [17, 400]
+      protection: 700
+      unbreaking: 400
   chestplate:
     id: 311
-      enchantments:
-        - [0, 700]
-        - [17, 400]
+    enchantments:
+      protection: 700
+      unbreaking: 400
   leggings:
     id: 312
+    enchantments:
+      protection: 700
+      unbreaking: 400
+  items:
+    743:
+      count: 1
+      meta: 0
       enchantments:
-        - [0, 700]
-        - [17, 400]
+        sharpness: 200
+        unbreaking: 60
   effects:
-    - [1, 6, 99999]
-    - [5, 2, 99999]
-    - [16, 1, 99999]
-    - [22, 2, 99999]
-    - [10, 3, 99999]
-    - [11, 6, 99999]
+    speed:
+      level: 6
+      duration: 9999999
+    strength:
+      level: 2
+      duration: 9999999
+    night_vision:
+      level: 1
+      duration: 9999999
+    absorption:
+      level: 2
+      duration: 9999999
+    regeneration:
+      level: 3
+      duration: 12000
+    resistance:
+      level: 6
+      duration: 9999999

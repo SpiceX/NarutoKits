@@ -19,16 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d827fd4-e12f-4559-9ac9-4a3a19fd8a66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/kits/sabio6.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/NarutoKits.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Kit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/KitManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Wearable.php" afterDir="false" />
+    <list default="true" id="9d827fd4-e12f-4559-9ac9-4a3a19fd8a66" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/command/UserCommand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/kits/sabio6.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kits/sabio6.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/NarutoKits.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/NarutoKits.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/kit/Kit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Kit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/kit/KitManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/KitManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +109,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../src/pocketmine" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
   <component name="RecentsManager">
@@ -128,8 +127,16 @@
       <updated>1598405628604</updated>
       <workItem from="1598405629791" duration="332000" />
       <workItem from="1598453752605" duration="2528000" />
-      <workItem from="1598464894002" duration="2331000" />
+      <workItem from="1598464894002" duration="10202000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1598467992904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598467992905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +154,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="485" y="37" key="#com.intellij.ide.util.MemberChooser" timestamp="1598472167666">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="485" y="37" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1598472167666" />
     <state x="413" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598454427940">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -164,17 +179,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="403" y="0" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1598405714444" />
-    <state x="292" y="97" key="NewPhpClassDialog" timestamp="1598454405843">
+    <state x="292" y="97" key="NewPhpClassDialog" timestamp="1598472146532">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="292" y="97" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1598454405843" />
+    <state x="292" y="97" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1598472146532" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1598405677039">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598405677039" />
-    <state x="397" y="77" width="571" height="584" key="find.popup" timestamp="1598453984730">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1598467996789">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="397" y="77" width="571" height="584" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1598453984730" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598467996789" />
+    <state x="397" y="77" width="636" height="584" key="find.popup" timestamp="1598474117228">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="397" y="77" width="636" height="584" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1598474117228" />
   </component>
 </project>
