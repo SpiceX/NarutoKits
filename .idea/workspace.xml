@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d827fd4-e12f-4559-9ac9-4a3a19fd8a66" name="Default Changelist" comment="" />
+    <list default="true" id="9d827fd4-e12f-4559-9ac9-4a3a19fd8a66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/kits/sabio6.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/NarutoKits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Kit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/KitManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Wearable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>C:\Users\Administrator\Documents\PocketMine-MP\composer.json</pharConfigPath>
     <execution>
       <phar pharPath="C:\Users\Administrator\Documents\PocketMine-MP\composer.phar" interpreterId="3f70b2f9-18e7-44d3-9f43-61b350a09caa" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-PMMP">
     <include_path>
@@ -68,15 +99,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gcEkbUQEo1A6dPQqf4DeWEFeny" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../src/pocketmine" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\PocketMine-MP\plugins\NarutoKits\resources\kits" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,21 +126,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598405628604</updated>
-      <workItem from="1598405629791" duration="47000" />
+      <workItem from="1598405629791" duration="332000" />
+      <workItem from="1598453752605" duration="2528000" />
+      <workItem from="1598464894002" duration="2331000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598454427940">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1598454427940" />
     <state x="463" y="109" key="FileChooserDialogImpl" timestamp="1598405674133">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598405674133" />
+    <state x="556" y="270" key="Github.ShareDialog" timestamp="1598405708804">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="556" y="270" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1598405708804" />
+    <state x="403" y="0" key="Github.UntrackedFilesDialog" timestamp="1598405714444">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="403" y="0" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1598405714444" />
+    <state x="292" y="97" key="NewPhpClassDialog" timestamp="1598454405843">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="292" y="97" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1598454405843" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1598405677039">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598405677039" />
+    <state x="397" y="77" width="571" height="584" key="find.popup" timestamp="1598453984730">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="397" y="77" width="571" height="584" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1598453984730" />
   </component>
 </project>

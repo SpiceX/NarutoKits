@@ -1,0 +1,5 @@
+name: NarutoKits
+main: litek\narutokits\NarutoKits
+api: [3.0.0]
+version: 1.0-alpha
+author: LiTEK
