@@ -1,17 +1,23 @@
 sabio6:
   permission: kitsabio6.perm
+  cooldown: 12h
   helmet:
-    id: 310
+    id: 748
     enchantments:
       protection: 700
       unbreaking: 400
   chestplate:
-    id: 311
+    id: 749
     enchantments:
       protection: 700
       unbreaking: 400
   leggings:
-    id: 312
+    id: 750
+    enchantments:
+      protection: 700
+      unbreaking: 400
+  boots:
+    id: 751
     enchantments:
       protection: 700
       unbreaking: 400
