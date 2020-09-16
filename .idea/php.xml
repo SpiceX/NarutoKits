@@ -21,7 +21,6 @@
       <path value="$PROJECT_DIR$/../../vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/../../vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/../../vendor/adhocore/json-comment" />
-      <path value="$PROJECT_DIR$/../../vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/../../vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/../../vendor/sebastian/code-unit" />
       <path value="$PROJECT_DIR$/../../vendor/sebastian/complexity" />

@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d827fd4-e12f-4559-9ac9-4a3a19fd8a66" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/resources/cooldown.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/command/Cooldown.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/litek/narutokits/cooldown/CooldownManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/kits/sabio6.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kits/sabio6.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/NarutoKits.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/NarutoKits.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/command/UserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/command/UserCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/cooldown/CooldownManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/cooldown/CooldownManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/litek/narutokits/kit/Kit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Kit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/litek/narutokits/kit/Wearable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/litek/narutokits/kit/Wearable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-PMMP">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/../../src/pocketmine" />
       <path value="$PROJECT_DIR$/../../vendor/composer" />
@@ -66,7 +60,6 @@
       <path value="$PROJECT_DIR$/../../vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/../../vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/../../vendor/adhocore/json-comment" />
-      <path value="$PROJECT_DIR$/../../vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/../../vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/../../vendor/sebastian/code-unit" />
       <path value="$PROJECT_DIR$/../../vendor/sebastian/complexity" />
@@ -115,7 +108,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -137,7 +130,8 @@
       <workItem from="1598544904395" duration="3199000" />
       <workItem from="1598555062032" duration="465000" />
       <workItem from="1599440969195" duration="9001000" />
-      <workItem from="1599567763172" duration="1836000" />
+      <workItem from="1599567763172" duration="2338000" />
+      <workItem from="1600282468716" duration="7481000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598467992904</created>
@@ -153,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598476023459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1599569782527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599569782527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,14 +201,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="292" y="97" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1599441278191" />
-    <state x="184" y="13" key="SettingsEditor" timestamp="1598543649266">
+    <state x="184" y="13" key="SettingsEditor" timestamp="1600282491018">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598543649266" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1598476026003">
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1600282491018" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1599569786496">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598476026003" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599569786496" />
     <state x="397" y="77" width="636" height="584" key="find.popup" timestamp="1598474117228">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

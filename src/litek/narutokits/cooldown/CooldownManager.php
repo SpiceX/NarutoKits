@@ -2,6 +2,7 @@
 
 namespace litek\narutokits\cooldown;
 
+use litek\narutokits\command\Cooldown;
 use litek\narutokits\kit\Kit;
 use litek\narutokits\NarutoKits;
 use pocketmine\Player;
@@ -84,7 +85,17 @@ class CooldownManager
     public function getTimeLeft(Player $player, Kit $kit)
     {
         if (($cooldown = $this->getKitCooldown($player, $kit)) !== null) {
-            return date("H:i:s", $cooldown  - time());
+            $timeleft = $cooldown - time();
+            if ($timeleft < 3540) {
+                return date("i:s", $timeleft);
+            } else {
+                $btime = date("H:i:s", time());
+                $atime = date("H:i:s", $timeleft);
+                $player->sendMessage("§cEste kit está em espera.");
+                $player->sendMessage("§cHora atual: " . $btime);
+                $player->sendMessage("§cEspere até:: " . $atime);
+                return null;
+            }
         }
         return null;
     }

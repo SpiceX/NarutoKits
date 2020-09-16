@@ -8,7 +8,9 @@ use litek\narutokits\NarutoKits;
 use pocketmine\entity\Effect;
 use pocketmine\entity\EffectInstance;
 use pocketmine\event\entity\EntityArmorChangeEvent;
+use pocketmine\event\inventory\InventoryPickupItemEvent;
 use pocketmine\event\Listener;
+use pocketmine\inventory\PlayerInventory;
 use pocketmine\item\enchantment\Enchantment;
 use pocketmine\item\enchantment\EnchantmentInstance;
 use pocketmine\item\Item;
@@ -118,6 +120,47 @@ class Kit implements Wearable, Listener
         }
     }
 
+    public function onPickItem(InventoryPickupItemEvent $event)
+    {
+        $item = $event->getItem();
+        if ($this->helmet->getCustomName() === $item->getItem()->getCustomName()) {
+            $inv = $event->getInventory();
+            if ($inv instanceof PlayerInventory) {
+                $player = $inv->getHolder();
+                if (!$player->hasPermission($this->data['permission'])) {
+                    $event->setCancelled();
+                }
+            }
+        }
+        if ($this->chestplate->getCustomName() === $item->getItem()->getCustomName()) {
+            $inv = $event->getInventory();
+            if ($inv instanceof PlayerInventory) {
+                $player = $inv->getHolder();
+                if (!$player->hasPermission($this->data['permission'])) {
+                    $event->setCancelled();
+                }
+            }
+        }
+        if ($this->leggings->getCustomName() === $item->getItem()->getCustomName()) {
+            $inv = $event->getInventory();
+            if ($inv instanceof PlayerInventory) {
+                $player = $inv->getHolder();
+                if (!$player->hasPermission($this->data['permission'])) {
+                    $event->setCancelled();
+                }
+            }
+        }
+        if ($this->boots->getCustomName() === $item->getItem()->getCustomName()) {
+            $inv = $event->getInventory();
+            if ($inv instanceof PlayerInventory) {
+                $player = $inv->getHolder();
+                if (!$player->hasPermission($this->data['permission'])) {
+                    $event->setCancelled();
+                }
+            }
+        }
+    }
+
     public function applyToPlayer(Player $player): void
     {
         if (!$player->hasPermission($this->data['permission'])) {
@@ -125,7 +168,11 @@ class Kit implements Wearable, Listener
             return;
         }
         if ($this->getPlugin()->getCooldownManager()->isExpired($player, $this)) {
-            $player->sendMessage("§cEste kit está em espera: " . $this->getPlugin()->getCooldownManager()->getTimeLeft($player, $this));
+            $timeleft = $this->getPlugin()->getCooldownManager()->getTimeLeft($player, $this);
+            if ($timeleft !== null) {
+                $player->sendMessage("§cEste kit está em espera: " . $timeleft);
+            }
+
             return;
         }
 
@@ -151,7 +198,7 @@ class Kit implements Wearable, Listener
             }
         }
         $player->sendMessage("§a> Kit {$this->name} recebido.");
-        if (is_string($this->cooldown)) {
+        if (is_string($this->cooldown) && !$this->getPlugin()->getCooldownManager()->isExpired($player, $this)) {
             $this->getPlugin()->getCooldownManager()->addCooldown($player, $this, Cooldown::parseDuration($this->cooldown));
         }
     }
